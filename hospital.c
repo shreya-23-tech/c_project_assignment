@@ -19,7 +19,7 @@ int main() {
     struct patient p[100];
     int id, n = 0, index, choice;
 
-    while (1) {
+   
         printf("\n1. ADD NEW PATIENT.\n");
         printf("2. DISPLAY DETAILS OF PATIENTS.\n");
         printf("3. SEARCH ANY PATIENT.\n");
@@ -85,7 +85,7 @@ int main() {
             printf("Invalid choice!\n");
         }
     }
-}
+
 
 void addPatient(struct patient p[], int *n) {
     printf("\nEnter ID: ");
